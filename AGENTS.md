@@ -19,7 +19,7 @@ Brand identity:
 Maintain a consistent, elegant, literary,
 and professional visual identity.
 
-You are contributing to Novel Studio, an open-source, offline-first, cross-platform desktop application for novel writers.
+You are contributing to Myshkin, an open-source, offline-first, cross-platform desktop application for novel writers.
 
 The application must support:
 - macOS
@@ -182,7 +182,7 @@ If a feature cannot be implemented consistently across all platforms, document t
 
 ## 8. UI/UX Guidelines
 
-Novel Studio follows the Editorial Workspace design direction.
+Myshkin follows the Editorial Workspace design direction.
 
 Visual principles:
 
@@ -210,7 +210,7 @@ The manuscript editor must remain the primary focus of the application.
 
 ## 9. Security and Privacy
 
-Novel Studio is an offline-first application.
+Myshkin is an offline-first application.
 
 Rules:
 

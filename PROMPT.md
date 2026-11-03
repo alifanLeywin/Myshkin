@@ -34,9 +34,9 @@ for developing complete novels.
 
 You are a senior software engineer and desktop application architect.
 
-Build an open-source, cross-platform desktop application named **Novel Studio**.
+Build an open-source, cross-platform desktop application named **Myshkin**.
 
-Novel Studio is a professional writing environment designed for novelists, fiction writers, and worldbuilders.
+Myshkin is a professional writing environment designed for novelists, fiction writers, and worldbuilders.
 
 The application should allow users to:
 - Create and manage multiple novel projects.
@@ -441,4 +441,4 @@ Start by building the foundation:
 
 Do not implement all advanced features immediately.
 
-First establish a stable, maintainable foundation for Novel Studio.
+First establish a stable, maintainable foundation for Myshkin.

@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "Core application access for the Myshkin desktop window.",
+  "windows": ["main"],
+  "permissions": ["core:default"]
+}

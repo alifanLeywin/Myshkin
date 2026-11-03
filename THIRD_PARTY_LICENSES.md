@@ -13,21 +13,33 @@ Third-party components remain subject to their respective licenses.
 | Component | Purpose | License | Source |
 |-----------|---------|---------|--------|
 | React | UI library | MIT | https://github.com/facebook/react |
+| React DOM | DOM renderer | MIT | https://github.com/facebook/react |
 | Vite | Frontend build tool | MIT | https://github.com/vitejs/vite |
+| Vite React plugin | React integration | MIT | https://github.com/vitejs/vite-plugin-react |
 | TypeScript | Programming language | Apache-2.0 | https://github.com/microsoft/TypeScript |
-| Tailwind CSS | CSS framework | MIT | https://github.com/tailwindlabs/tailwindcss |
+| Tailwind CSS and Vite plugin | CSS framework and integration | MIT | https://github.com/tailwindlabs/tailwindcss |
 | Zustand | State management | MIT | https://github.com/pmndrs/zustand |
-| Tiptap | Rich-text editor | MIT / verify individual packages | https://github.com/ueberdosis/tiptap |
-| Lucide | Icon library | ISC | https://github.com/lucide-icons/lucide |
+| Lucide React | Icon library | ISC | https://github.com/lucide-icons/lucide |
+| Tauri JavaScript API and CLI | Desktop IPC and build tooling | MIT / Apache-2.0 | https://github.com/tauri-apps/tauri |
+| clsx | Conditional class names | MIT | https://github.com/lukeed/clsx |
+| tailwind-merge | Tailwind class conflict resolution | MIT | https://github.com/dcastil/tailwind-merge |
+| Vitest | Frontend test runner | MIT | https://github.com/vitest-dev/vitest |
+| React Testing Library | UI testing utilities | MIT | https://github.com/testing-library/react-testing-library |
+| jest-dom | DOM test matchers | MIT | https://github.com/testing-library/jest-dom |
+| jsdom | DOM test environment | MIT | https://github.com/jsdom/jsdom |
+| Node.js type definitions | TypeScript tooling | MIT | https://github.com/DefinitelyTyped/DefinitelyTyped |
+| React type definitions | TypeScript tooling | MIT | https://github.com/DefinitelyTyped/DefinitelyTyped |
 
 ## 2. Desktop and Backend Dependencies
 
 | Component | Purpose | License | Source |
 |-----------|---------|---------|--------|
 | Tauri | Desktop application framework | MIT / Apache-2.0 | https://github.com/tauri-apps/tauri |
+| tauri-build | Rust build-time integration | MIT / Apache-2.0 | https://github.com/tauri-apps/tauri |
 | Rust | Backend programming language | MIT / Apache-2.0 | https://github.com/rust-lang/rust |
-| SQLx | Database toolkit | MIT / Apache-2.0 | https://github.com/launchbadge/sqlx |
-| SQLite | Embedded database | Public Domain | https://sqlite.org/ |
+| Serde | Rust serialization framework | MIT / Apache-2.0 | https://github.com/serde-rs/serde |
+
+SQLite and SQLx are planned but are not dependencies in this foundation phase.
 
 ## 3. Fonts and Visual Assets
 
@@ -35,7 +47,8 @@ List all fonts, icons, illustrations, images, and other external assets used by 
 
 | Asset | Creator | License | Source |
 |-------|---------|---------|--------|
-| To be documented | To be documented | To be documented | To be documented |
+| Myshkin desktop icon | Myshkin contributors | GPL-3.0-only | `src-tauri/icons/myshkin.svg` |
+| Fonts | System providers | Platform/system licenses | No font files are bundled; the UI uses system font fallbacks. |
 
 Do not include assets without verifying their licensing and redistribution permissions.
 
